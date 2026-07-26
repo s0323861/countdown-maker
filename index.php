@@ -109,7 +109,12 @@ $defaultEventDate = today()->modify('+100 days')->format('Y-m-d');
 </main>
 
 <footer class="border-top py-4 text-center text-secondary small">
-  Copyright &copy; <?= date('Y') ?> Akira Mukai
+  Copyright &copy; <?= date('Y') ?>
+  <a href="https://s0323861.github.io" target="_blank" rel="noopener noreferrer" class="text-secondary text-decoration-none">Akira Mukai</a>
+  <span aria-hidden="true"> | </span>
+  <a href="https://github.com/s0323861/countdown-maker" target="_blank" rel="noopener noreferrer" class="text-secondary text-decoration-none">
+    <i class="fa-brands fa-github me-1" aria-hidden="true"></i>GitHub
+  </a>
 </footer>
 
 <script>
@@ -135,4 +140,3 @@ form.addEventListener('submit', event => {
 </script>
 </body>
 </html>
-
